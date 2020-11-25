@@ -1,8 +1,8 @@
 import React from "react";
 //import UseStateBasic from "./components/useState/UseStateBasic";
-import UseStateArray from "./components/useState/UseStateArray";
+//import UseStateArray from "./components/useState/UseStateArray";
 //import UseStateObject from "./components/useState/UseStateObject";
-//import UseStateCounter from "./components/useState/UseStateCounter";
+import UseStateCounter from "./components/useState/UseStateCounter";
 import "./App.css";
 
 const App = () => {
@@ -10,8 +10,10 @@ const App = () => {
     <div className="App">
       {/*
     <UseStateBasic />
+    <UseStateArray />
+    <UseStateObject />
     */}
-      <UseStateArray />
+      <UseStateCounter />
     </div>
   );
 };
