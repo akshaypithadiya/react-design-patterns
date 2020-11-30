@@ -4,11 +4,16 @@ import React from "react";
 //import UseStateArray from "./design-patterns/useState/UseStateArray";
 //import UseStateObject from "./design-patterns/useState/UseStateObject";
 //import UseStateCounter from "./design-patterns/useState/UseStateCounter";
+
 //useEffect
 //import UseEffectBasics from "./design-patterns/useEffect/UseEffectBasics";
 //import UseEffectCleanUp from "./design-patterns/useEffect/UseEffectCleanUp";
 //import UseEffectFetchData from "./design-patterns/useEffect/UseEffectFetchData";
-import MultipleReturns from "./design-patterns/conditional-rendering/MultipleReturns";
+
+//conditional-rendering
+//import MultipleReturns from "./design-patterns/conditional-rendering/MultipleReturns";
+//import ShortCircuit from "./design-patterns/conditional-rendering/ShortCircuit";
+import ShowHide from "./design-patterns/conditional-rendering/ShowHide";
 
 import "./App.css";
 
@@ -20,14 +25,18 @@ const App = () => {
     <UseStateBasic />
     <UseStateArray />
     <UseStateObject />
-    <UseStateCounter />  
+    <UseStateCounter /> 
+
     //useEffect
     <UseEffectBasics />
     <UseEffectCleanUp />
     <UseEffectFetchData />
+
     //conditional-rendering
+    <MultipleReturns />
+    <ShortCircuit />
     */}
-      <MultipleReturns />
+      <ShowHide />
     </div>
   );
 };
