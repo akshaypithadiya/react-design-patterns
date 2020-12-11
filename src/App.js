@@ -20,7 +20,10 @@ import React from "react";
 // import MultipleInputs from "./design-patterns/forms/MultipleInputs";
 
 // useRef
-import UseRefBasics from "./design-patterns/useRef/UseRefBasics";
+// import UseRefBasics from "./design-patterns/useRef/UseRefBasics";
+
+// useReducer
+import UseReducer from "./design-patterns/useReducer";
 
 import "./App.css";
 
@@ -28,27 +31,31 @@ const App = () => {
   return (
     <div className="App">
       {/*
-    //useState
+    // useState
     <UseStateBasic />
     <UseStateArray />
     <UseStateObject />
     <UseStateCounter /> 
 
-    //useEffect
+    // useEffect
     <UseEffectBasics />
     <UseEffectCleanUp />
     <UseEffectFetchData />
 
-    //conditional-rendering
+    // conditional-rendering
     <MultipleReturns />
     <ShortCircuit />
     <ShowHide />
 
-    //forms
+    // forms
     <ControlledInputs />
     <MultipleInputs />
+
+    // useRef
+    <UseRefBasics />
     */}
-      <UseRefBasics />
+
+      <UseReducer />
     </div>
   );
 };
