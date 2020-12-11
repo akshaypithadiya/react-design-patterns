@@ -17,7 +17,10 @@ import React from "react";
 
 // forms
 // import ControlledInputs from "./design-patterns/forms/ControlledInputs";
-import MultipleInputs from "./design-patterns/forms/MultipleInputs";
+// import MultipleInputs from "./design-patterns/forms/MultipleInputs";
+
+// useRef
+import UseRefBasics from "./design-patterns/useRef/UseRefBasics";
 
 import "./App.css";
 
@@ -43,8 +46,9 @@ const App = () => {
 
     //forms
     <ControlledInputs />
+    <MultipleInputs />
     */}
-      <MultipleInputs />
+      <UseRefBasics />
     </div>
   );
 };
